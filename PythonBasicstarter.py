@@ -46,23 +46,9 @@ secondmax = 0
 for i in range(cases):
 
     a,b = map(int,input().split())
-# not completed
-    for j in range(0,b):
-        product = j * b
-        newarray.append(product)
-        if (product >= a):
-            max = product
-            if (max <= a):
-           
-                c = newarray.index(max) - 1
+c = b % a
+print(c)
 
-           
-valueofc =  newarray[c]
-
-remainder = (a - valueofc)
-
-            
-print(remainder)
 
 
 
