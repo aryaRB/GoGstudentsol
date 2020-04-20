@@ -39,15 +39,15 @@
 #problem4
 
 
-cases = int(input("Enter the cases"))
-newarray = []
-secondmax = 0
+# cases = int(input("Enter the cases"))
+# newarray = []
+# secondmax = 0
 
-for i in range(cases):
+# for i in range(cases):
 
-    a,b = map(int,input().split())
-c = b % a
-print(c)
+#     a,b = map(int,input().split())
+# c = b % a
+# print(c)
 
 
 
