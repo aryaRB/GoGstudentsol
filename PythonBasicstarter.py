@@ -75,6 +75,22 @@
 
 #perfect square OYO ROOMS
 
+# testcase = int(input())
+# c =[]
+# newlist = []
+# for i in range(testcase):
+#     N = int(input())
+#     for i in range(0,100):
+#         c.append(i//2)
+# for j in c:  
+#     if (j not in newlist):
+#         newlist.append(j)
+
+
+# if (N % j == 0):
+#     print("1")
+# else:
+#     print("0")
 
 
 
