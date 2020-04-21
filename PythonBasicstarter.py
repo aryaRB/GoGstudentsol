@@ -49,6 +49,33 @@
 # c = b % a
 # print(c)
 
+#problem5
+
+# c = int(input())
+# for j in range(c):
+#     s = input().strip()
+#     count = 0
+#     for i in s:
+#         if i.isupper():
+#             count = count + 1
+
+# print(count)
+
+#problem 6
+
+# testcases = int(input())
+
+# for i in range(testcases):
+#     string1 = input()
+#     a,b = input().split()
+#     put = int(a)
+#     put1 = int(b)
+#     for i in string1[put:put1:1]:
+#          print(i,end = "")
+
+#perfect square OYO ROOMS
+
+
 
 
 
