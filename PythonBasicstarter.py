@@ -107,8 +107,30 @@
 #     print("overload")
     
 # rows.sort()
-# a = ' '.join(rows)
-# print(a, end = "\n")
+# b = ' '.join(rows)
+# print(b, end = "\n")
+
+# problem 2
+
+# testcase = int(input())
+# a = 100
+# d= []
+# l = []
+
+
+# for i in range(testcase):
+
+#     values = int(input())
+#     for j in range(1,a):
+#         c = j*2
+#         d.append(c)
+#         if (j in d and j > values):
+           
+           
+#            break
+
+   
+#     print(j)
 
 
 
