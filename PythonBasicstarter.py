@@ -1,4 +1,4 @@
-#school #Basic #GFG
+#section school #Basic #GFG
 
 # problem 1
 # a,b,c = input().split()
@@ -92,8 +92,23 @@
 # else:
 #     print("0")
 
+#section EASY problem 1  matrix //AMAZON
 
+# testcase = int(input())
 
+# string = ""
+# for i in range(testcase):
+
+#     N = int(input())
+#     rows = input().split()
+# a = N*N
+# rows = rows[:a]      #limiting the list
+# if (len(rows) > a):
+#     print("overload")
+    
+# rows.sort()
+# a = ' '.join(rows)
+# print(a, end = "\n")
 
 
 
