@@ -133,6 +133,39 @@
 #     print(j)
 
 
+#Printing the max element of array
+
+# arr = [1,4,2,65,2]
+
+# max = 0
+# for i in range(len(arr)):
+    
+#     if arr[i] > max :
+#         max = arr[i]
+   
+# print(max)
+
+#FACTOR OR multiple problem
+c = []
+T = int(input())
+
+for i in range(T):
+    A,X = map(int,input().split())
+    ar = input().split()
+
+ar = ar[:A]     #limit in  the inputs in int
+c.append(ar)
+print(c)
+
+for j in c:   
+   c.append(j % X == 0)
+print(c)
+
+# myList = list(input().split())
+# myInt = 10
+# newList = [x / myInt for x in myList]
+# print(newList)
+
 
 
 
