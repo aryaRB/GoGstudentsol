@@ -181,6 +181,21 @@
 #     print("combination not found")
 
 
+# Geek for Geeks #Doctors clinic
+
+# T = int(input())
+# m = 0
+# for i in range(T):
+#     N,X = map(int,input().split())
+
+# for j in range(1,N):
+#     c = j
+# w = (c * X )
+# print(w)
+
+
+
+
 
 
 
