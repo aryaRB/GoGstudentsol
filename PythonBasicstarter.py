@@ -146,25 +146,41 @@
 # print(max)
 
 #FACTOR OR multiple problem
-c = []
-T = int(input())
+# c = []
+# T = int(input())
 
-for i in range(T):
-    A,X = map(int,input().split())
-    ar = input().split()
+# for i in range(T):
+#     A,X = map(int,input().split())
+#     ar = input().split()
+#     # ar = ar[:A]     #limit in  the inputs in int
 
-ar = ar[:A]     #limit in  the inputs in int
-c.append(ar)
-print(c)
+# for j in range(len(ar)):   
+#     if(ar[j] % X == 0):
+#         print(ar[j])
 
-for j in c:   
-   c.append(j % X == 0)
-print(c)
+
 
 # myList = list(input().split())
 # myInt = 10
 # newList = [x / myInt for x in myList]
 # print(newList)
+
+# EXCEPTION # google white board problem
+
+# a = [1,2,3,9]
+# b = [1,2,4,4]
+
+# for i in range(0,len(a)):
+#     for j in range(1,len(a)):
+#         if(a[i] == a[j]):
+#             sum = a[i]+a[j]
+#             if(sum == '8'):
+#                 print("found")
+           
+# else:
+#     print("combination not found")
+
+
 
 
 
