@@ -194,8 +194,30 @@
 # print(w)
 
 
-
-
+# category EASY ARYA STARK problem
+# T = int(input())
+# for m in range(T):
+#     X = int(input())
+# c = []
+# d = []
+# qo = 1      #quotient
+# i = 0   
+# sum = 0
+# count = 0
+# q = X // 2
+# while  q >= qo:
+#     c.append(q)
+#     q = q // 2
+# c.append(X) 
+# c.sort() 
+# c.reverse()  
+# for i in c:   
+#     remainder = (i % 2)
+#     d.append(remainder)
+# for j in d:
+#     if (j == 1):
+#      count = count + 1
+# print(count)
 
 
 
