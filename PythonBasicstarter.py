@@ -219,6 +219,43 @@
 #      count = count + 1
 # print(count)
 
+#Karatsuba Algorithm
+
+# str1 = "1100"
+# # d = []
+# j= 0
+
+# for i in str1:
+#     c = ' '.join([str1[i:i+1] for i in range(0,len(str1))])
+
+# print(c)
+# e = list(c.split(" "))
+
+# j = e.remove('')
+
+# print(j)
+
+# a = [1,1,1,1]
+# b = ['1','1','1','1']
+# d = array("i",b)
+
+# for j in b:
+#     print(j)
+
+
+# Reverse coding
+a = 10
+b = 10
+c = []
+d = []
+e = []
+
+for i in range(a):
+    c.append(i)
+for j in c:
+    k = d[] + j 
+      
+print(k)
 
 
 
