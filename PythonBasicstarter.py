@@ -264,19 +264,23 @@
 
 
 # Reverse coding
-# a = 10
-# b = 10
-# c = []
-# d = []
-# e = []
+# v = []
+# l = []
+# sum = 0
+# list1 = 1000
+# for o in range(0,list1):
+#     l.append(o)
 
-# for i in range(a):
-#     c.append(i)
-# for j in c:
-#     k = d[] + j 
-      
-# print(k)
+# for i in range(0,len(l)):
+#        sum = sum + i
+#        v.append(sum)
+
+# T = int(input())
+# for k in range(T):
+#     n,m = map(int,input().split())
 
 
+# if (l.index(n) == v.index(m)):
+#     print("1")
 
 
