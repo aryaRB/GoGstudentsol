@@ -221,41 +221,61 @@
 
 #Karatsuba Algorithm
 
-# str1 = "1100"
-# # d = []
-# j= 0
+# total = 0
+# power = 0
+# sum1 = 0
+# j = []
+# v =0
+# o = []
+# d = []
+
+# sum = 0
+# T = int(input())
+# for z in range(T):
+#     str1,str2 = input().split()
+# k = len(str1)
 
 # for i in str1:
 #     c = ' '.join([str1[i:i+1] for i in range(0,len(str1))])
+# for i in str2:
+#     f = ' '.join([str1[i:i+1] for i in range(0,len(str1))])
 
-# print(c)
 # e = list(c.split(" "))
+# for l in e:
+#     j.append(int(l))
 
-# j = e.remove('')
+# h = list(f.split(" "))
+# for y in h:
+#     o.append(int(y))
 
-# print(j)
+# for u in j:
+#     if (u == 1):
+#         k = k - 1 
+#         v = 2 ** k
+#         sum = sum + v
+# for r in o:
+#     if (r == 1):
+#         power = power - 1 
+#         total = 2 ** power
+#         sum1 = sum1 + total
+# multiply = sum * sum1
 
-# a = [1,1,1,1]
-# b = ['1','1','1','1']
-# d = array("i",b)
-
-# for j in b:
-#     print(j)
+# print(multiply)
 
 
 # Reverse coding
-a = 10
-b = 10
-c = []
-d = []
-e = []
+# a = 10
+# b = 10
+# c = []
+# d = []
+# e = []
 
-for i in range(a):
-    c.append(i)
-for j in c:
-    k = d[] + j 
+# for i in range(a):
+#     c.append(i)
+# for j in c:
+#     k = d[] + j 
       
-print(k)
+# print(k)
 
 
 
