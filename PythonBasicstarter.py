@@ -283,4 +283,14 @@
 # if (l.index(n) == v.index(m)):
 #     print("1")
 
+#mycat exam sample
 
+# T = int(input())
+# people = 10;
+# for i in range(T):
+#     N= int(input()) 
+#     dived = people / N
+#     if (dived == 2.0 or dived == 0.5):
+#        print("yes")
+#     else:
+#        print("no")
