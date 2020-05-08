@@ -296,16 +296,30 @@
 #        print("no")
 
 #leetcode easy list stock profit finder
-prices = list(map(int,input().strip().split()))
+# prices = list(map(int,input().strip().split()))
 
-sub = 0
-c = []
-for i in range(len(prices)):
-    for j in range(i+1,len(prices)):
-            if (prices[j]>prices[i]):
-                sub = prices[j] - prices[i]
-                print(sub)
-                break
-            else:
+# sub = 0
+# c = []
+# for i in range(len(prices)):
+#     for j in range(i+1,len(prices)):
+#             if (prices[j]>prices[i]):
+#                 sub = prices[j] - prices[i]
+#                 print(sub)
+#                 break
+#             else:
                 
-                break   
+#                 break   
+
+
+#remove duplicates in a list without creating a new list
+# list1 = [1,2,3,3,4,6,8]
+
+# for i in range(len(list1)):
+#     for j in range(i+1,len(list1)):
+        
+#         if (list1[i] == list1[j]):
+#             del list1[i]
+#             print(list1)
+#             break
+#         else:
+#             break
