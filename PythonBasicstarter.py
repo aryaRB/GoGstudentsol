@@ -323,3 +323,109 @@
 #             break
 #         else:
 #             break
+
+
+#PROBLEMS USING DICTIONARY
+
+# a = {
+#        "number" : 10,
+#        2 : 20,
+#        3 : "cat",
+#        4 : 40,
+#        5 : "dog"
+# }
+
+# if ("number" in a):
+#     print("present")
+
+# b = a.sort()
+# print(b)
+
+# triangular number EASY
+
+# sum = 0
+# a = 10**7
+# c = []
+
+# T = int(input())
+# for i in range(T):
+#     N = int(input())
+
+# for j in range(a):
+#     sum = sum + j
+#     c.append(sum)
+# if (N in c):
+#     print("1")
+# else:
+#     print("0")
+
+
+
+# **** LINKED LIST *******
+
+# creating a node
+
+# class Node:
+#     def __init__(self, data):
+#         self.data = data
+#         self.next = None
+
+# # create the linkedlist
+
+# class LinkedList:
+#     def __init__(self):
+        
+#         self.head = None
+
+
+# if __name__ == '__main__':
+#     # assining the value of LinkedList in llist
+#     llist = LinkedList()
+
+#     # adding the node to the LinkedList
+
+#     llist.head = Node(1)
+#     second = Node(2)
+#     third = Node(3)
+
+#     # connecting the linkedlist
+    
+#     llist.head.next = third
+#     # second.next = third
+
+#     while llist.head != None:
+#         print(llist.head.data)
+#         llist.head = llist.head.next
+
+
+# traversing a linked list
+
+class Node:
+    def __init__(self,data):
+        self.data = data
+        self.next = None
+class linkedList:
+    def  __init__(self):
+        self.head = None
+
+        # inserting a node before the header
+    def  __init__(self,newlist):
+        newlist.next = self.head
+        self.head = newlist
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
