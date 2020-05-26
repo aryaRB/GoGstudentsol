@@ -361,6 +361,213 @@
 
 
 
+# using for loop to reversse a linked list
+# T = int(input())
+# a = [1,2,5,6]
+# c = []
+# d = []
+# for i in a:
+#     c.append(int(i))
+# print(c)
+# for j in range(len(c)):
+#     a = c.pop()
+#     d.append(a)
+#     print(d)
+
+
+# HACKERRANK PROBLEM # find the Runner up score
+
+
+# T = int(input())
+
+# N = list(map(int,input().split()))
+
+# c = []
+# d = []
+# N.sort()
+
+# for i in N:
+#     if i not in c:
+#         c.append(int(i))
+
+
+# for l in c:
+#     if l not in d:
+#         d.append(l)
+
+# for j in range(len(d)) :
+#     for k in range(j + 1, len(d)):
+
+#         if (d[k] > d[j]):
+
+#             l = d[k-1]
+
+# print(l)
+
+
+
+# Nested Lists
+
+T = int(input())
+
+if (T >= 2 and T <=5 ):
+    for i in range(T):
+        N = input()
+        G  = float(input())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # **** LINKED LIST *******
 
 # creating a node
@@ -397,21 +604,65 @@
 #         print(llist.head.data)
 #         llist.head = llist.head.next
 
-
 # traversing a linked list
 
-class Node:
-    def __init__(self,data):
-        self.data = data
-        self.next = None
-class linkedList:
-    def  __init__(self):
-        self.head = None
+# class Node:
+#     def __init__(self,data):
+#         self.data = data
+#         self.next = None
 
-        # inserting a node before the header
-    def  __init__(self,newlist):
-        newlist.next = self.head
-        self.head = newlist
+# class LinkedList:
+#     def __init__(self):
+#         self.head = None
+    
+#     # adding a new Node before the head node
+
+#     def __init__(self , new_data):
+#         new_node = Node(new_data)
+#         new_node.next = self.head
+#         self.head = new_node
+#     #inserting a new node after a node
+#     def __init__(self , prev_node ,new_datas):
+
+#         if prev_node is None:
+#             print("prev node not present")
+#             return
+
+#         new_node = Node(new_datas)
+#         new_node.next = prev_node.next
+#         prev_node.next = new_node
+    
+#     #inserting a node at the end
+#     def __init__(self,new_data):
+#        newnode = Node(new_data)
+
+#        if (self.head == None):
+
+#            self.head = Node
+#            return
+           
+#            last = self.head
+#            while (last.next):
+#             last = la
+           
+
+
+
+
+
+
+
+
+
+
+         
+# if __name__ == '__main__':
+
+#     llist = LinkedList()
+
+
+
+
 
 
 
