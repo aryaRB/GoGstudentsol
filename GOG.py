@@ -295,20 +295,7 @@
 #     else:
 #        print("no")
 
-#leetcode easy list stock profit finder
-# prices = list(map(int,input().strip().split()))
 
-# sub = 0
-# c = []
-# for i in range(len(prices)):
-#     for j in range(i+1,len(prices)):
-#             if (prices[j]>prices[i]):
-#                 sub = prices[j] - prices[i]
-#                 print(sub)
-#                 break
-#             else:
-                
-#                 break   
 
 
 #remove duplicates in a list without creating a new list
@@ -375,45 +362,48 @@
 #     print(d)
 
 
-# HACKERRANK PROBLEM # find the Runner up score
-
-
-# T = int(input())
-
-# N = list(map(int,input().split()))
-
-# c = []
-# d = []
-# N.sort()
-
-# for i in N:
-#     if i not in c:
-#         c.append(int(i))
-
-
-# for l in c:
-#     if l not in d:
-#         d.append(l)
-
-# for j in range(len(d)) :
-#     for k in range(j + 1, len(d)):
-
-#         if (d[k] > d[j]):
-
-#             l = d[k-1]
-
-# print(l)
 
 
 
 # Nested Lists
 
-T = int(input())
+# T = int(input())
 
-if (T >= 2 and T <=5 ):
-    for i in range(T):
-        N = input()
-        G  = float(input())
+# if (T >= 2 and T <=5 ):
+#     for i in range(T):
+#         N = input()
+#         G  = float(input())
+
+
+
+# Anshuman's Favourite Number   GOG
+
+# T = int(input())
+
+# d = []
+
+# for i in range(T):
+#     N = int(input())
+
+    
+#     for j in range(N):
+#         c = 5 * j
+        
+#         d.append(c)
+        
+        
+# if (N in d):
+#     print("YES")
+            
+# else:
+#     print("NO")
+
+
+
+
+
+
+
 
 
 
